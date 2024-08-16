@@ -22,9 +22,9 @@ while True:
 
 
 
-    #The responce
+    #The response
     st_AI_n.responses.response(prompt)
-    time.sleep(5)
+    time.sleep(2)
     os.system("cls")
 
     #AI needs a break
