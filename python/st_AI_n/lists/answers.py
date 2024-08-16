@@ -4,6 +4,6 @@ answers = {
 }
 
 unknownprompt = [
-    "Sorry, with this I cannot help you."
+    "Sorry, with this I cannot help you.",
     "Even though I do VWO, I am not the smartest:\nJe m'appelle un toilette."
 ]
