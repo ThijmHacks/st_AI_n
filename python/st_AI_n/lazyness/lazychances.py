@@ -10,5 +10,5 @@ def lazyapproach():
 
 def whatapproachdef():
     whatapproach = random.randint(1,1)
-    if whatapproach == 1: st_AI_n.lazyness.tolazy()
+    if whatapproach == 1: st_AI_n.lazyness.toolazy()
     if whatapproach == 2: st_AI_n.lazyness.givemetoast()

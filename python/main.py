@@ -14,6 +14,9 @@ while True:
     print("If you need help with anything feel free to ask.")
 
     prompt = input("Your prompt: ").lower()
+
+    if prompt == "bread": st_AI_n.lazyness.givemetoast()
+
     #Waiting for response
    #totaldots = random.randint(1,5) #1,60
    #timebetween = random.randint(1,1) / 10 #1,4 /10

@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__, template_folder='./')
 
-@app.route('/flaskhome')
+@app.route('/')
 def index():
     return render_template("index.html")
 
