@@ -1,8 +1,7 @@
-import st_AI_n.lists.lists
+from st_AI_n.lists.lists import listwithpromts
 
 
-def checklists(prompt):
-    hello = True
-    unknown = False
-    if prompt in lists.hello: return True
-    else: unknown = True
+
+def checkindir(prompt):
+    listing = listwithpromts.keys()
+    if prompt in listing: return True

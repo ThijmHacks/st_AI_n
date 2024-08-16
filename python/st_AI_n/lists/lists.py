@@ -1,5 +1,3 @@
-hello = [
-    "hello", "Hello",
-    "hi","Hi",
-    "yo","Yo",
-]
+listwithpromts = {
+    "hello": 1,
+}

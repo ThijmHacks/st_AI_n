@@ -4,5 +4,5 @@ import st_AI_n.lists
 import st_AI_n.responses.lists
 
 def response(prompt):
-    st_AI_n.lists.checklists(prompt)
-    if st_AI_n.lists: answer = random.choice(st_AI_n.responses.lists.hello)
+    if st_AI_n.lists.checkindir(prompt): return "This is an available command"
+    else: return "I do not know this command"

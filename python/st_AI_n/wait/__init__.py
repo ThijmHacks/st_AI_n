@@ -12,6 +12,7 @@ def wait(totaldots,timebetween):
         print("..")
         time.sleep(timebetween)
         os.system("cls")
+        i = i + 1
         print("...")
         time.sleep(timebetween)
         os.system("cls")

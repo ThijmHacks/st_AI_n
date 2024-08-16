@@ -17,13 +17,17 @@ while True:
     prompt = input("Your prompt: ")
 
     #Waiting for response
-    totaldots = random.randint(1,10) #1,60
-    timebetween = random.randint(1,1) / 10 #1,4 /4
-    st_AI_n.wait.wait(totaldots,timebetween)
+   #totaldots = random.randint(1,5) #1,60
+   #timebetween = random.randint(1,1) / 10 #1,4 /10
+
+   #st_AI_n.wait.wait(totaldots,timebetween)
+
+
 
     #The responce
-    st_AI_n.responses.response(prompt)
+    print(st_AI_n.responses.response(prompt))
     time.sleep(5)
+    os.system("cls")
 
     #AI needs a break
     st_AI_n.st_AI_n__PLUS.proptslimiteddef()
