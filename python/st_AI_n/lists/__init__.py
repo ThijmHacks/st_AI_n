@@ -1,13 +1,13 @@
 import secrets
 
 from st_AI_n.lists.answers import unknownprompt, answers
-from st_AI_n.lists.prompts import listwithpromts
+from st_AI_n.lists.prompts import listwithprompts
 
 
 def checkindir(prompt):
-    listing = listwithpromts.keys()
+    listing = listwithprompts.keys()
     if prompt in listing:
-        return listwithpromts[prompt]
+        return listwithprompts[prompt]
     else: print(secrets.choice(unknownprompt))
 
 def randomanswer(number):
