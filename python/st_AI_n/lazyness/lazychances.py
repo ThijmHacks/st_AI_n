@@ -3,7 +3,6 @@ import random
 import st_AI_n.lazyness
 
 
-#todo Ask stijns favo number
 
 def lazyapproach():
     lazyapproachrandom = random.randint(1,10)
