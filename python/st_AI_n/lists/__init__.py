@@ -8,7 +8,9 @@ def checkindir(prompt):
     listing = listwithprompts.keys()
     if prompt in listing:
         return listwithprompts[prompt]
-    else: print(secrets.choice(unknownprompt))
+    else:
+        print(secrets.choice(unknownprompt))
+        quit()
 
 def randomanswer(number):
     string = str(number)
