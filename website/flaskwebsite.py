@@ -1,11 +1,22 @@
-from flask import Flask, render_template
-import requests
-import json
+from flask import Flask, render_template, request
+
+from st_AI_n.responses import response
 
 app = Flask(__name__, template_folder='./')
 
-@app.route('/')
-def index():
-    return render_template("index.html")
+@app.route('/chat_stain', methods=['GET', 'POST'])
+def chat_stain():
+    output = None
+    if request.method == 'POST':
+        user_input = request.form['user_input']
 
-app.run(host="127.0.0.1", port=80)
+
+        output = response(user_input)
+
+
+    return render_template('ai.html', output=output)
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
