@@ -1,5 +1,5 @@
 answers = {
-    "1": ["hi", "hello", "How are you?", "Whats up?"],
+    "1": ["hi", "hello", "How are you?", "Whats up?", "kys"],
     "2": [],
 }
 

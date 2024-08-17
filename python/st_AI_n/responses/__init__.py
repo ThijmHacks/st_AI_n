@@ -7,6 +7,6 @@ def response(prompt):
 
     if randomanswervar is not None:
         if randomanswervar <= 99:
-            print(st_AI_n.lists.randomanswer(randomanswervar))
+            return  st_AI_n.lists.randomanswer(randomanswervar)
         elif randomanswervar == 100: very_normal_brownies()
-    else: print(randomunknownprompt())
+    else: return randomunknownprompt()
