@@ -6,4 +6,7 @@ listwithprompts = {
     "bake": 100,
     "brownie": 100,
 
+    #Games => 200
+    "guess": 200,
+    "number": 200
 }
