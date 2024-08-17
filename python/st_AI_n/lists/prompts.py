@@ -8,5 +8,6 @@ listwithprompts = {
 
     #Games => 200
     "guess": 200,
-    "number": 200
+    "number": 200,
+    "quiz": 201
 }
