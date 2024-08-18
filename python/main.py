@@ -33,7 +33,7 @@ while True:
 
 
     #The response
-    st_AI_n.responses.response(prompt)
+    print(st_AI_n.responses.response(prompt))
     time.sleep(2)
     os.system("cls")
 
