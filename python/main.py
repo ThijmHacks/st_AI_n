@@ -20,7 +20,8 @@ while True:
     if st_AI_n.lazyness.lazychances.lazyapproach():
         continue
 
-    if prompt == "bread": st_AI_n.lazyness.givemetoast()
+    if prompt == "bread":
+        st_AI_n.lazyness.givemetoast()
 
 
     #Waiting for response

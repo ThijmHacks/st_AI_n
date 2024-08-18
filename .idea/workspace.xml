@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51f1197b-6d91-4ebd-975c-ab39b7ea7dcc" name="Changes" comment="finished quiz game" />
+    <list default="true" id="51f1197b-6d91-4ebd-975c-ab39b7ea7dcc" name="Changes" comment="finished quiz game">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/st_AI_n/games/quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/st_AI_n/games/quiz.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +63,7 @@
     &quot;Python.quiz.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Shell Script.Python.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/hijma/PycharmProjects&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -113,6 +119,8 @@
       <workItem from="1723889982926" duration="198000" />
       <workItem from="1723905562898" duration="2079000" />
       <workItem from="1723907684212" duration="3200000" />
+      <workItem from="1723910930021" duration="128000" />
+      <workItem from="1723988570717" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="shorter wait time between prompts">
       <option name="closed" value="true" />
@@ -218,7 +226,7 @@
     <SUITE FILE_PATH="coverage/st_AI_n$prompts.coverage" NAME="prompts Coverage Results" MODIFIED="1723890138489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/st_AI_n/lists" />
     <SUITE FILE_PATH="coverage/st_AI_n$flaskwebsite.coverage" NAME="flaskwebsite Coverage Results" MODIFIED="1723905715217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/website" />
     <SUITE FILE_PATH="coverage/st_AI_n$guess_number.coverage" NAME="guess_number Coverage Results" MODIFIED="1723906603251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/st_AI_n/games" />
-    <SUITE FILE_PATH="coverage/st_AI_n$main.coverage" NAME="main Coverage Results" MODIFIED="1723819281980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/st_AI_n$main.coverage" NAME="main Coverage Results" MODIFIED="1723988805336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/st_AI_n$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1723908474445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/st_AI_n/games" />
   </component>
 </project>
