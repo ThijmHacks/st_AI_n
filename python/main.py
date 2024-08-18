@@ -7,6 +7,8 @@ import st_AI_n.lazyness
 import st_AI_n.st_AI_n__PLUS
 import st_AI_n.lists
 import st_AI_n.responses
+import st_AI_n.lazyness.lazychances
+
 
 os.system("cls")
 
@@ -15,7 +17,11 @@ while True:
 
     prompt = input("Your prompt: ").lower()
 
+    if st_AI_n.lazyness.lazychances.lazyapproach():
+        continue
+
     if prompt == "bread": st_AI_n.lazyness.givemetoast()
+
 
     #Waiting for response
    #totaldots = random.randint(1,5) #1,60

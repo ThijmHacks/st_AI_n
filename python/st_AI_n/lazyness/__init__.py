@@ -12,7 +12,9 @@ def givemetoast():
     if toastemoji != "🍞":
         os.system("cls")
         print("That's not a bread emoji\nFuck you")
-        quit()
+        print("Now I will die of hunger...")
+        time.sleep(5)
+        quit("st_AI_n died")
     else:
         print("Thx, now I am not a hungry person anymore.")
 
